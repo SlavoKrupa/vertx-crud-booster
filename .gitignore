@@ -4,10 +4,10 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/workspace.xml
+.idea/
+*.iml
 .idea/tasks.xml
 .idea/dictionaries
-.idea/vcs.xml
 .idea/jsLibraryMappings.xml
 
 # Sensitive or high-churn files:
@@ -130,3 +130,6 @@ dist/
 nbdist/
 nbactions.xml
 .nb-gradle/
+
+# Sensitive password
+/src/main/fabric8/credentials-secret.yml
